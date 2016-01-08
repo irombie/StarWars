@@ -8,7 +8,17 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController{
+    IBOutlet UITextField *user;
+    IBOutlet UITextField *pass;
+    
+    NSArray *username;
+    NSArray *password;
+    NSMutableDictionary *userinfo;
+    
+}
+
+-(IBAction)buttonpressed:(id)sender;
 
 
 @end
