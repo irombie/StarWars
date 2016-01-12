@@ -8,15 +8,15 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController{
-    IBOutlet UITextField *user;
-    IBOutlet UITextField *pass;
-    
+@interface ViewController : UIViewController <UITextFieldDelegate>{
     NSArray *username;
     NSArray *password;
     NSMutableDictionary *userinfo;
-    
 }
+@property (weak,nonatomic) IBOutlet UITextField *user;
+@property (weak,nonatomic) IBOutlet  UITextField *pass;
+
+@property (strong, nonatomic) IBOutlet UITapGestureRecognizer *backgroundTap;
 
 -(IBAction)buttonpressed:(id)sender;
 

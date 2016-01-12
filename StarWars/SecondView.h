@@ -8,6 +8,16 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SecondView : UIViewController
+@interface SecondView : UIViewController{
+    NSMutableDictionary *list;
+    NSArray *imgArr;
+    NSArray *listArr;
+}
+
+@property (weak,nonatomic) IBOutlet UIImageView *han;
+@property (weak,nonatomic) IBOutlet UIImageView *yoda;
+@property (weak,nonatomic) IBOutlet UIImageView *anakin;
+@property (weak,nonatomic) IBOutlet UIImageView *luke;
+@property (weak, nonatomic) IBOutlet UIImageView *padme;
 
 @end

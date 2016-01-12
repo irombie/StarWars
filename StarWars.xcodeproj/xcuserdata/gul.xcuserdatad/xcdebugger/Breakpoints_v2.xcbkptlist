@@ -24,12 +24,28 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "StarWars/ViewController.m"
-            timestampString = "473952856.643407"
+            timestampString = "474026673.253413"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "41"
-            endingLineNumber = "41"
-            landmarkName = "-viewDidLoad"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
+            landmarkName = "-didReceiveMemoryWarning"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "StarWars/ViewController.m"
+            timestampString = "474026673.253413"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "-buttonpressed:"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
