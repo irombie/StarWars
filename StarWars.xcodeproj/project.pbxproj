@@ -15,6 +15,11 @@
 		A8917D821C3FD77A00419DD6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8917D801C3FD77A00419DD6 /* LaunchScreen.storyboard */; };
 		A8917D8D1C3FD77A00419DD6 /* StarWarsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A8917D8C1C3FD77A00419DD6 /* StarWarsTests.m */; };
 		A8917D981C3FD77A00419DD6 /* StarWarsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A8917D971C3FD77A00419DD6 /* StarWarsUITests.m */; };
+		A898D67F1C47CACE00D531D0 /* anakin.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A898D67A1C47CACE00D531D0 /* anakin.jpg */; };
+		A898D6801C47CACE00D531D0 /* han.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A898D67B1C47CACE00D531D0 /* han.jpg */; };
+		A898D6811C47CACE00D531D0 /* luke.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A898D67C1C47CACE00D531D0 /* luke.jpg */; };
+		A898D6821C47CACE00D531D0 /* padme.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A898D67D1C47CACE00D531D0 /* padme.jpg */; };
+		A898D6831C47CACE00D531D0 /* yoda.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A898D67E1C47CACE00D531D0 /* yoda.jpg */; };
 		A8AD82751C3FFBA40008B956 /* SecondView.m in Sources */ = {isa = PBXBuildFile; fileRef = A8AD82741C3FFBA40008B956 /* SecondView.m */; };
 /* End PBXBuildFile section */
 
@@ -52,6 +57,11 @@
 		A8917D931C3FD77A00419DD6 /* StarWarsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StarWarsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8917D971C3FD77A00419DD6 /* StarWarsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StarWarsUITests.m; sourceTree = "<group>"; };
 		A8917D991C3FD77A00419DD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A898D67A1C47CACE00D531D0 /* anakin.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = anakin.jpg; path = ../../../../Downloads/anakin.jpg; sourceTree = "<group>"; };
+		A898D67B1C47CACE00D531D0 /* han.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = han.jpg; path = ../../../../Downloads/han.jpg; sourceTree = "<group>"; };
+		A898D67C1C47CACE00D531D0 /* luke.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = luke.jpg; path = ../../../../Downloads/luke.jpg; sourceTree = "<group>"; };
+		A898D67D1C47CACE00D531D0 /* padme.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = padme.jpg; path = ../../../../Downloads/padme.jpg; sourceTree = "<group>"; };
+		A898D67E1C47CACE00D531D0 /* yoda.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = yoda.jpg; path = ../../../../Downloads/yoda.jpg; sourceTree = "<group>"; };
 		A8AD82731C3FFBA40008B956 /* SecondView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondView.h; sourceTree = "<group>"; };
 		A8AD82741C3FFBA40008B956 /* SecondView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -104,6 +114,11 @@
 		A8917D711C3FD77A00419DD6 /* StarWars */ = {
 			isa = PBXGroup;
 			children = (
+				A898D67A1C47CACE00D531D0 /* anakin.jpg */,
+				A898D67B1C47CACE00D531D0 /* han.jpg */,
+				A898D67C1C47CACE00D531D0 /* luke.jpg */,
+				A898D67D1C47CACE00D531D0 /* padme.jpg */,
+				A898D67E1C47CACE00D531D0 /* yoda.jpg */,
 				A8917D751C3FD77A00419DD6 /* AppDelegate.h */,
 				A8917D761C3FD77A00419DD6 /* AppDelegate.m */,
 				A8917D781C3FD77A00419DD6 /* ViewController.h */,
@@ -212,6 +227,7 @@
 				TargetAttributes = {
 					A8917D6E1C3FD77A00419DD6 = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 9L4Q6UX4DU;
 					};
 					A8917D871C3FD77A00419DD6 = {
 						CreatedOnToolsVersion = 7.2;
@@ -249,8 +265,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				A8917D821C3FD77A00419DD6 /* LaunchScreen.storyboard in Resources */,
+				A898D6801C47CACE00D531D0 /* han.jpg in Resources */,
 				A8917D7F1C3FD77A00419DD6 /* Assets.xcassets in Resources */,
+				A898D6821C47CACE00D531D0 /* padme.jpg in Resources */,
+				A898D6831C47CACE00D531D0 /* yoda.jpg in Resources */,
 				A8917D7D1C3FD77A00419DD6 /* Main.storyboard in Resources */,
+				A898D6811C47CACE00D531D0 /* luke.jpg in Resources */,
+				A898D67F1C47CACE00D531D0 /* anakin.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,6 +440,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = StarWars/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = irem.StarWars;
@@ -430,6 +452,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = StarWars/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = irem.StarWars;

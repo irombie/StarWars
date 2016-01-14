@@ -18,10 +18,7 @@
 
 
 -(IBAction)buttonpressed:(id)sender{
-    if ([[userinfo objectForKey:_user.text]isEqualToString:_pass.text]) {
-    
-        
-    } else {
+    if (![[userinfo objectForKey:_user.text]isEqualToString:_pass.text]) {
         UIAlertController * alert2 =[UIAlertController alertControllerWithTitle:@"Incorrect login info" message:@"Password or username inputted incorrectly" preferredStyle:UIAlertControllerStyleAlert ];
         UIAlertAction* dismiss = [UIAlertAction actionWithTitle:@"Dismiss" style:UIAlertActionStyleDefault handler:^(UIAlertAction * action){
             [alert2 dismissViewControllerAnimated:YES completion:nil];
@@ -29,6 +26,7 @@
         [self presentViewController:alert2 animated:YES completion:nil];
         [alert2 addAction:dismiss];
     }
+    
     
 }
 
