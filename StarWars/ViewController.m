@@ -14,7 +14,32 @@
 @end
 
 @implementation ViewController
+static BOOL isLoggedIn=NO;
 
+- (void)logInViewController:(PFLogInViewController *)controller
+               didLogInUser:(PFUser *)user {
+    isLoggedIn=YES;
+    [self dismissViewControllerAnimated:YES completion:^{
+        [self performSegueWithIdentifier:@"CustomSegue" sender:self];
+    }];
+    
+   // ViewController *gotoYourClass = [self.storyboard instantiateViewControllerWithIdentifier:@"SecondView"];
+    
+    //[self.navigationController pushViewController:gotoYourClass animated:YES];
+
+   // UIStoryboard *st = [UIStoryboard storyboardWithName:[[NSBundle mainBundle].infoDictionary objectForKey:@"UIMainStoryboardFile"] bundle:[NSBundle mainBundle]];
+}
+
+- (void)logInViewControllerDidCancelLogIn:(PFLogInViewController *)logInController {
+    [self dismissViewControllerAnimated:YES completion:nil];
+}
+- (void)signUpViewController:(PFSignUpViewController *)signUpController didSignUpUser:(PFUser *)user {
+    [self dismissViewControllerAnimated:YES completion:nil];
+}
+
+- (void)signUpViewControllerDidCancelSignUp:(PFSignUpViewController *)signUpController {
+    [self dismissViewControllerAnimated:YES completion:nil];
+}
 
 
 -(IBAction)buttonpressed:(id)sender{
@@ -28,6 +53,17 @@
     }
     
     
+}
+-(void) viewDidAppear:(BOOL)animated{
+    [super viewDidAppear:animated];
+    if(!isLoggedIn){
+        PFLogInViewController *logInController = [[PFLogInViewController alloc] init];
+        logInController.delegate = self;
+        logInController.signUpController.delegate = self;
+        [self presentViewController:logInController animated:YES completion:nil];
+    }
+    
+
 }
 
 - (void)viewDidLoad {

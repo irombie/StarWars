@@ -7,6 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A80137661C482884000EF7B3 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A801375C1C482884000EF7B3 /* AudioToolbox.framework */; };
+		A80137671C482884000EF7B3 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A801375D1C482884000EF7B3 /* CFNetwork.framework */; };
+		A80137681C482884000EF7B3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A801375E1C482884000EF7B3 /* CoreGraphics.framework */; };
+		A80137691C482884000EF7B3 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A801375F1C482884000EF7B3 /* CoreLocation.framework */; };
+		A801376A1C482884000EF7B3 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A80137601C482884000EF7B3 /* libsqlite3.tbd */; };
+		A801376B1C482884000EF7B3 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A80137611C482884000EF7B3 /* libz.tbd */; };
+		A801376C1C482884000EF7B3 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A80137621C482884000EF7B3 /* QuartzCore.framework */; };
+		A801376D1C482884000EF7B3 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A80137631C482884000EF7B3 /* Security.framework */; };
+		A801376E1C482884000EF7B3 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A80137641C482884000EF7B3 /* StoreKit.framework */; };
+		A801376F1C482884000EF7B3 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A80137651C482884000EF7B3 /* SystemConfiguration.framework */; };
+		A80137711C4828A2000EF7B3 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A80137701C4828A2000EF7B3 /* Social.framework */; };
+		A80137731C4828AD000EF7B3 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A80137721C4828AD000EF7B3 /* Accounts.framework */; };
+		A812CBDF1C4D0D2C008D97C1 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A812CBDC1C4D0D2C008D97C1 /* Bolts.framework */; };
+		A812CBE01C4D0D2C008D97C1 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A812CBDD1C4D0D2C008D97C1 /* Parse.framework */; };
+		A825B50F1C4D10C600448D74 /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A825B50E1C4D10C600448D74 /* ParseUI.framework */; };
 		A8917D741C3FD77A00419DD6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A8917D731C3FD77A00419DD6 /* main.m */; };
 		A8917D771C3FD77A00419DD6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A8917D761C3FD77A00419DD6 /* AppDelegate.m */; };
 		A8917D7A1C3FD77A00419DD6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8917D791C3FD77A00419DD6 /* ViewController.m */; };
@@ -41,6 +56,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A801375C1C482884000EF7B3 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		A801375D1C482884000EF7B3 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		A801375E1C482884000EF7B3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A801375F1C482884000EF7B3 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		A80137601C482884000EF7B3 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		A80137611C482884000EF7B3 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		A80137621C482884000EF7B3 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		A80137631C482884000EF7B3 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		A80137641C482884000EF7B3 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		A80137651C482884000EF7B3 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		A80137701C4828A2000EF7B3 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		A80137721C4828AD000EF7B3 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		A812CBDC1C4D0D2C008D97C1 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = "../../../../Downloads/parse-library-1/Bolts.framework"; sourceTree = "<group>"; };
+		A812CBDD1C4D0D2C008D97C1 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = "../../../../Downloads/parse-library-1/Parse.framework"; sourceTree = "<group>"; };
+		A825B50E1C4D10C600448D74 /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseUI.framework; sourceTree = "<group>"; };
 		A8917D6F1C3FD77A00419DD6 /* StarWars.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StarWars.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8917D731C3FD77A00419DD6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A8917D751C3FD77A00419DD6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -71,6 +101,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A80137731C4828AD000EF7B3 /* Accounts.framework in Frameworks */,
+				A80137711C4828A2000EF7B3 /* Social.framework in Frameworks */,
+				A80137661C482884000EF7B3 /* AudioToolbox.framework in Frameworks */,
+				A80137671C482884000EF7B3 /* CFNetwork.framework in Frameworks */,
+				A80137681C482884000EF7B3 /* CoreGraphics.framework in Frameworks */,
+				A80137691C482884000EF7B3 /* CoreLocation.framework in Frameworks */,
+				A801376A1C482884000EF7B3 /* libsqlite3.tbd in Frameworks */,
+				A812CBDF1C4D0D2C008D97C1 /* Bolts.framework in Frameworks */,
+				A801376B1C482884000EF7B3 /* libz.tbd in Frameworks */,
+				A801376C1C482884000EF7B3 /* QuartzCore.framework in Frameworks */,
+				A812CBE01C4D0D2C008D97C1 /* Parse.framework in Frameworks */,
+				A801376D1C482884000EF7B3 /* Security.framework in Frameworks */,
+				A825B50F1C4D10C600448D74 /* ParseUI.framework in Frameworks */,
+				A801376E1C482884000EF7B3 /* StoreKit.framework in Frameworks */,
+				A801376F1C482884000EF7B3 /* SystemConfiguration.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,6 +136,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A825B50D1C4D0E4800448D74 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A825B50E1C4D10C600448D74 /* ParseUI.framework */,
+				A812CBDC1C4D0D2C008D97C1 /* Bolts.framework */,
+				A812CBDD1C4D0D2C008D97C1 /* Parse.framework */,
+				A80137721C4828AD000EF7B3 /* Accounts.framework */,
+				A80137701C4828A2000EF7B3 /* Social.framework */,
+				A801375C1C482884000EF7B3 /* AudioToolbox.framework */,
+				A801375D1C482884000EF7B3 /* CFNetwork.framework */,
+				A801375E1C482884000EF7B3 /* CoreGraphics.framework */,
+				A801375F1C482884000EF7B3 /* CoreLocation.framework */,
+				A80137601C482884000EF7B3 /* libsqlite3.tbd */,
+				A80137611C482884000EF7B3 /* libz.tbd */,
+				A80137621C482884000EF7B3 /* QuartzCore.framework */,
+				A80137631C482884000EF7B3 /* Security.framework */,
+				A80137641C482884000EF7B3 /* StoreKit.framework */,
+				A80137651C482884000EF7B3 /* SystemConfiguration.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A8917D661C3FD77A00419DD6 = {
 			isa = PBXGroup;
 			children = (
@@ -114,6 +181,7 @@
 		A8917D711C3FD77A00419DD6 /* StarWars */ = {
 			isa = PBXGroup;
 			children = (
+				A825B50D1C4D0E4800448D74 /* Frameworks */,
 				A898D67A1C47CACE00D531D0 /* anakin.jpg */,
 				A898D67B1C47CACE00D531D0 /* han.jpg */,
 				A898D67C1C47CACE00D531D0 /* luke.jpg */,
@@ -441,8 +509,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/**",
+					"$(PROJECT_DIR)/StarWars",
+				);
 				INFOPLIST_FILE = StarWars/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = irem.StarWars;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -453,8 +526,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/**",
+					"$(PROJECT_DIR)/StarWars",
+				);
 				INFOPLIST_FILE = StarWars/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = irem.StarWars;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};

@@ -8,6 +8,8 @@
 
 #import "AppDelegate.h"
 
+
+
 @interface AppDelegate ()
 
 @end
@@ -17,8 +19,52 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    [Parse setApplicationId: @"drlPsJrwso48p9B5KvtHUQ0Pt83GOIJKFoOBGfog"
+                  clientKey: @"dL5h7oXPGnPuxLl8dFlKk1onV21PEGtRLiQsVKPJ"];
+    // Override point for customization after application launch.
+    /*
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    if ([PFUser currentUser]) // if user logged in.
+        
+    {
+        self.homeViewController= [[HomeViewController alloc]initWithNibName:@"HomeViewController" bundle:nil];
+        self.navigationController = [[UINavigationController alloc]initWithRootViewController:self.homeViewController];
+        
+    } else
+    {
+        self.logInViewController = [self getLoginViewController];
+        self.navigationController = [[UINavigationController alloc]initWithRootViewController:logInViewController];
+    }
+    
+    self.window.rootViewController = self.navigationController;
+    [self.window makeKeyAndVisible];
+     */
+    
     return YES;
 }
+/*
+- (PFLogInViewController *)getLoginViewController
+{
+    PFLogInViewController *loginController= [[PFLogInViewController alloc] init];
+    [loginController setDelegate:self];
+    loginController.logInView.logo = nil;
+    
+    loginController.fields = PFLogInFieldsUsernameAndPassword
+    | PFLogInFieldsLogInButton
+    | PFLogInFieldsSignUpButton
+    | PFLogInFieldsPasswordForgotten;
+    
+    self.signUpViewController = [[PFSignUpViewController alloc] init];
+    [signUpViewController setDelegate:self];
+    
+    signUpViewController.fields = PFSignUpFieldsUsernameAndPassword
+    | PFSignUpFieldsSignUpButton|PFSignUpFieldsDismissButton;
+    
+    signUpViewController.signUpView.logo = nil;
+    [loginController setSignUpController:signUpViewController];
+    return loginController;
+}
+*/
 
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.

@@ -6,13 +6,17 @@
 //  Copyright © 2016 İrem Ergün. All rights reserved.
 //
 
+#import <Parse/Parse.h>
+#import <ParseUI/ParseUI.h>
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController <UITextFieldDelegate>{
+@interface ViewController : UIViewController <PFLogInViewControllerDelegate, PFSignUpViewControllerDelegate>{
     NSArray *username;
     NSArray *password;
     NSMutableDictionary *userinfo;
+    
 }
+
 @property (weak,nonatomic) IBOutlet UITextField *user;
 @property (weak,nonatomic) IBOutlet  UITextField *pass;
 

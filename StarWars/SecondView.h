@@ -7,8 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <Parse/Parse.h>
+#import <ParseUI/ParseUI.h>
 
-@interface SecondView : UITableViewController <UITableViewDelegate, UITableViewDataSource>
+@interface SecondView : PFQueryTableViewController
 
 
     
